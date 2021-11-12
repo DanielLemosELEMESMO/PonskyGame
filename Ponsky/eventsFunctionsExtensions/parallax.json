@@ -1,5 +1,5 @@
 {
-  "author": "4ian",
+  "author": "group six",
   "description": "Behaviors to animate Tiled Sprite objects in the background, following the camera with a parallax effect.",
   "extensionNamespace": "",
   "fullName": "Parallax for Tiled Sprite",
