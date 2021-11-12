@@ -1,0 +1,476 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.platformer",
+    "pixelsRounding": true,
+    "projectUuid": "7e9999d1-be96-42ab-a5f4-5bba054934a3",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Platformer",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 120,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "p1_stand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_stand.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_jump.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk08.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "brickWall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "brickWall.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bridge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bridge.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grassHalfMid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grassHalfMid.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "castleCenter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "castleCenter.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bridgeLogs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bridgeLogs.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ladder_mid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ladder_mid.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grass.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PlayerArea.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PlayerArea.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slimeWalk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slimeWalk1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slimeWalk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slimeWalk2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slimeDead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slimeDead.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "flyFly1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "flyFly1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "flyFly2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "flyFly2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "flyDead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "flyDead.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cloud1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cloud2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cloud3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bush.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bush.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cactus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cactus.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "plant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coinGold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coinGold.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shadedDark06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shadedDark06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shadedDark05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shadedDark05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shadedDark45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shadedDark45.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shadedDark09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shadedDark09.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tiled_Forest Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Forest Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "D-pad top.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D-pad top.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "D-pad bottom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D-pad bottom.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "life lost sound.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "life lost sound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/new-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/garage"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/industries"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/rocket"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mars"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemiesmanagement"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/parallax"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
